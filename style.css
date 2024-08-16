@@ -1,0 +1,23 @@
+:root{
+    --branco: white;
+    --corDeFundo: rgb(3, 77, 216);
+    --fundoSenha: rgb(34, 232, 12);
+    --fundoDeTexto: rgb(246, 121, 3);
+    --borda: rgb(250, 11, 242);
+    --NovaAmsterdã: "New Amsterdam", sans-serif;
+    --Matemasia: "Matemasie", sans-serif;
+
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--corDeFundo);    
+}
+
+.titulo-pricipal{
+    font-family: var(--Matemasia);
+}
+
+.titulo-secundario{
+    font-family: var(--NovaAmsterdã);
+}

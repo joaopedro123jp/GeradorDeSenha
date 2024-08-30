@@ -1,23 +1,23 @@
 :root{
     --branco: white;
-    --corDeFundo: rgb(3, 77, 216);
-    --fundoSenha: rgb(34, 232, 12);
-    --fundoDeTexto: rgb(246, 121, 3);
-    --borda: rgb(250, 11, 242);
-    --NovaAmsterdã: "New Amsterdam", sans-serif;
-    --Matemasia: "Matemasie", sans-serif;
-
+    --corDeFundo:#00162E;
+    --fundoSenha: #00244D;
+    --fundoDeTexto: #001E40;
+    --borda: #0075ff;
+    --roboto: "Roboto", sans-serif;
+    --robotoMono: "Roboto Mono", monospace;
 }
+
 
 body{
     color: var(--branco);
-    background-color: var(--corDeFundo);    
+    background-color: var(--corDeFundo);
 }
 
-.titulo-pricipal{
-    font-family: var(--Matemasia);
+.titulo-principal{
+    font-family: var(--roboto);
 }
 
 .titulo-secundario{
-    font-family: var(--NovaAmsterdã);
+    font-family: var(--robotoMono);
 }
